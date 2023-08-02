@@ -1,0 +1,21 @@
+{
+  "name": "hl7-watcher",
+  "version": "1.0.0",
+  "description": "hl7 file listener",
+  "main": "main.js",
+  "author": "theanh098",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/main",
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.3.1"
+  }
+}
